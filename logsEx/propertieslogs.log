@@ -1,0 +1,34 @@
+[DEBUG] 2023-02-25 19:15:03.600 [main] LogEx - Dubug
+[WARN ] 2023-02-25 19:15:03.602 [main] LogEx - Warning
+[INFO ] 2023-02-25 19:15:03.602 [main] LogEx - Info
+[ERROR] 2023-02-25 19:15:03.602 [main] LogEx - eRROR
+[INFO ] 2023-02-25 19:54:27.378 [main] LoginPageExceution - Test Started
+[INFO ] 2023-02-25 20:14:37.902 [pool-2-thread-3] HomePageExecution - Homepage Test Execution has Started
+[INFO ] 2023-02-25 20:14:37.977 [pool-2-thread-1] SignUpPageExecution - Signup Test Execution has Started
+[INFO ] 2023-02-25 20:14:48.226 [pool-2-thread-3] HomePageExecution - Signup Test Execution has Ended
+[ERROR] 2023-02-25 20:14:48.305 [pool-2-thread-2] SignUpPageExecution - Exception occured as org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PETER-PRAVEEN', ip: '192.168.199.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\PETERP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51023}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 95fce822810265d525886262e580ccdc
+[INFO ] 2023-02-25 20:15:55.352 [pool-2-thread-1] HomePageExecution - Homepage Test Execution has Started
+[INFO ] 2023-02-25 20:16:15.253 [pool-2-thread-3] HomePageExecution - Hotel Booking is completed !!!
+[INFO ] 2023-02-25 20:16:15.372 [pool-2-thread-3] HomePageExecution - Signup Test Execution has Ended
+[INFO ] 2023-02-25 20:44:21.126 [pool-2-thread-1] HomePageExecution - Homepage Test Execution has Started
+[INFO ] 2023-02-25 20:44:40.762 [pool-2-thread-3] HomePageExecution - Hotel Booking is completed !!!
+[INFO ] 2023-02-25 20:44:40.923 [pool-2-thread-3] HomePageExecution - Hompage Test Execution has Ended
+[ERROR] 2023-02-25 21:00:58.476 [pool-2-thread-2] HomePageExecution - Exception occured as java.lang.NullPointerException
+[ERROR] 2023-02-25 21:00:58.508 [pool-2-thread-3] HomePageExecution - Exception occured as java.lang.NullPointerException
+[ERROR] 2023-02-25 21:01:52.986 [pool-2-thread-2] HomePageExecution - Exception occured as java.lang.NullPointerException
+[ERROR] 2023-02-25 21:01:53.001 [pool-2-thread-3] HomePageExecution - Exception occured as java.lang.NullPointerException
+[INFO ] 2023-02-25 21:02:41.762 [pool-2-thread-2] SignUpPageExecution - Signup Test Execution has Started
+[ERROR] 2023-02-25 21:03:04.873 [pool-2-thread-2] SignUpPageExecution - Exception occured as org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PETER-PRAVEEN', ip: '192.168.199.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\PETERP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46eb194ac9220d7d5b7aa8affd96189e
+*** Element info: {Using=xpath, value=//*[@id='tnc_box']}

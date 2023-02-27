@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="true">
+    <groups>
+      <run>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.straive.pageexecution.SignUpPageExecution">
+        <methods>
+          <include name="loginTest"/>
+          <include name="signUpTest"/>
+          <include name="closeBrowser"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.straive.pageexecution.SignUpPageExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

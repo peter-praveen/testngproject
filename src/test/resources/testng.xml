@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3">
+<test parallel="true" thread-count="3" name="Test">
+<groups><run><exclude name="Regression"/></run></groups>
+    <classes>
+     <class name="com.straive.pageexecution.SignUpPageExecution"/>
+    <!--  <class name="com.straive.pageexecution.LoginPageExceution"/>
+     -->
+       <class name="com.straive.pageexecution.HomePageExecution"/>
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
